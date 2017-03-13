@@ -1,0 +1,17 @@
+[package]
+name = "nppElevatedSave"
+version = "0.1.0"
+authors = ["jeiea"]
+
+[dependencies]
+minhook = { git = "https://github.com/Jascha-N/minhook-rs.git" }
+winapi = "0.2"
+user32-sys = "0.1"
+
+[[bin]]
+name = "original"
+path = "src/original.rs"
+
+[[bin]]
+name = "expanded"
+path = "src/expanded.rs"
